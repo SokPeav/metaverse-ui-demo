@@ -20,6 +20,14 @@ const About = () => (
 				is really the madness of the metaverse of today, using only VR devices you can easily explore the metaverse world you want, turn your dreams into reality. Let's explore the
 				madness of the metaverse by scrolling down
 			</motion.p>
+			<motion.img
+			variants={fadeIn("up",'tween',0.3,1)}
+			src="/arrow-down.svg"
+			alt="Arrow Down"
+			className="w-[18px] h-[28px] object-contain mt-[28px]"
+			>
+
+			</motion.img>
 		</motion.div>
 	</section>
 );
